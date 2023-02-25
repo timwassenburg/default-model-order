@@ -1,0 +1,24 @@
+{
+    "name": "timwassenburg/default-model-order",
+    "description": "Adds a trait to make your models sortable",
+    "keywords": ["php", "trait", "laravel", "eloquent", "models", "sortable"],
+    "homepage": "https://github.com/timwassenburg/default-model-order",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tim Wassenburg"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TimWassenburg\\defaultModelOrder\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TimWassenburg\\DefaultModelOrder\\DefaultModelOrderServiceProvider"
+            ]
+        }
+    }
+}
