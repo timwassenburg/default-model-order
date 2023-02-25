@@ -22,7 +22,7 @@ composer require timwassenburg/default-model-order
 ```
 
 ## Usage
-Once you have installed the package, you can import the ```DefaultOrder``` trait into your model to set the default order. Then, you can assign the desired column to the ```$orderBy``` variable to order by that column. Additionally, you may optionally set the ```$orderDirection``` variable to specify the direction of the order, with the default value being asc.
+Once you have installed the package, you can import the ```DefaultOrder``` trait into your model to set the default order. Then, you can assign the desired column to the ```$orderBy``` variable to order by that column. Additionally, you may optionally set the ```$orderDirection``` variable to specify the direction of the order, with the default value being ```asc```.
 
 ```php
 use TimWassenburg\DefaultModelOrder\DefaultOrder;
