@@ -13,9 +13,7 @@
 </div>
 
 ## Features
-I always thought overwriting the boot method in a model, to add default sorting made it look a bit messy. So I
-decided to make this super simple package. Basically all it does is moving the code to a trait to clean
-the model up.
+I used to think that overwriting the boot method in a model to add default sorting made it look messy. Therefore, I decided to create a simple package that moves the code to a trait to clean up the model. As a result, all model collections in your project will be sorted by default.
 
 ## Installation
 Install the package with composer.
@@ -24,9 +22,7 @@ composer require timwassenburg/default-model-order
 ```
 
 ## Usage
-After installation you can import the ```DefaultOrder``` trait into your model and set the default order.
-Then set the ```$orderBy``` variable to the column you want to order by. Optionally you can set the ```$orderDirection``` 
-variable to the direction you want to order by. The default value is ```asc```.
+Once you have installed the package, you can import the ```DefaultOrder``` trait into your model to set the default order. Then, you can assign the desired column to the ```$orderBy``` variable to order by that column. Additionally, you may optionally set the ```$orderDirection``` variable to specify the direction of the order, with the default value being asc.
 
 ```php
 use TimWassenburg\DefaultModelOrder\DefaultOrder;
@@ -41,7 +37,7 @@ class User extends Model
 ```
 
 ### Publish config (optional)
-If you want to change the default column name or direction you can publish the config file.
+Suppose you wish to modify the default column name or direction. In that case, you may publish the configuration file to make the necessary adjustments. To do so, run the following command:
 ```
 php artisan vendor:publish --provider="TimWassenburg\DefaultModelOrder\DefaultModelOrderServiceProvider" --tag="config"
 ```
