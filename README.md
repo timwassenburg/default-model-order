@@ -13,7 +13,7 @@
 </div>
 
 ## Features
-I used to think that overwriting the boot method in a model to add default sorting made it look messy. Therefore, I decided to create a simple package that moves the code to a trait to clean up the model. As a result, all model collections in your project will be sorted by default.
+This simple package adds a trait to your project that can be used to sort collections of a model by default by a specified column. As a result, the model looks more clean and readable.
 
 ## Installation
 Install the package with composer.
