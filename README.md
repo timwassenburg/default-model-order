@@ -12,6 +12,10 @@
 <br><br>
 </div>
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/timwassenburg/default-model-order.svg?style=flat-square)](https://packagist.org/packages/timwassenburg/default-model-order)
+[![Total Downloads](https://img.shields.io/packagist/dt/timwassenburg/default-model-order.svg?style=flat-square)](https://packagist.org/packages/timwassenburg/default-model-order)
+[![License](https://img.shields.io/packagist/l/timwassenburg/default-model-order)](https://packagist.org/packages/timwassenburg/default-model-order)
+
 ## Features
 This simple package adds a trait to your project that can be used to sort collections of a model by default by a specified column. As a result, the model looks more clean and readable.
 
