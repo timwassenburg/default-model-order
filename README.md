@@ -1,6 +1,7 @@
 <img src="img/banner.png" alt="Logo">
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/timwassenburg/default-model-order.svg?style=flat-square)](https://packagist.org/packages/timwassenburg/default-model-order)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/timwassenburg/default-model-order/run-tests.yml?branch=master&label=tests&style=flat-square)](https://github.com/timwassenburg/default-model-order/actions?query=workflow%3Arun-tests+branch%3Amaster)
 [![Total Downloads](https://img.shields.io/packagist/dt/timwassenburg/default-model-order.svg?style=flat-square)](https://packagist.org/packages/timwassenburg/default-model-order)
 [![License](https://img.shields.io/packagist/l/timwassenburg/default-model-order)](https://packagist.org/packages/timwassenburg/default-model-order)
 

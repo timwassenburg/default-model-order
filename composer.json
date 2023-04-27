@@ -14,11 +14,29 @@
             "TimWassenburg\\DefaultModelOrder\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "TimWassenburg\\DefaultModelOrder\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "analyse": "vendor/bin/phpstan analyse",
+        "format": "vendor/bin/pint"
+    },
     "extra": {
         "laravel": {
             "providers": [
                 "TimWassenburg\\DefaultModelOrder\\DefaultModelOrderServiceProvider"
             ]
+        }
+    },
+    "require-dev": {
+        "laravel/pint": "^1.10",
+        "nunomaduro/larastan": "^2.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
         }
     }
 }

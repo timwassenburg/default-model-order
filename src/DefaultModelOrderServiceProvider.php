@@ -19,7 +19,7 @@ class DefaultModelOrderServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/../config/default-model-order.php' => config_path('default-model-order.php'),
+            __DIR__.'/../config/default-model-order.php' => config_path('default-model-order.php'),
         ], 'config');
     }
 }

@@ -9,7 +9,8 @@ trait DefaultOrder
     /**
      * @throws \Exception
      */
-    protected static function boot() {
+    protected static function boot()
+    {
         parent::boot();
 
         $orderBy = self::getOrderColumn();
@@ -29,7 +30,7 @@ trait DefaultOrder
     {
         $direction = static::$orderDirection ?? config('default-model-order.order_direction');
 
-        if (!in_array($direction, ['asc', 'desc'])) {
+        if (! in_array($direction, ['asc', 'desc'])) {
             throw new \Exception('Invalid order direction');
         }
 
